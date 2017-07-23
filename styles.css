@@ -3,6 +3,8 @@
 body {
   background: #F2F1E8;
   margin: 0 auto;
+  font-family: 'Merriweather', serif;
+
 }
 
 /*HEADER*/
@@ -29,15 +31,153 @@ nav {
 
 nav a {
   padding: 20px;
+  color: #2B2F26;
+  font-family: 'Roboto', sans-serif;
 
 }
 
 /*MAIN*/
 
-main {
+#title {
+  text-align: center;
 
 }
 
+#title p:nth-of-type(1) {
+  font-size: 45px;
+  margin-bottom: 0;
+}
+
+#title p:nth-of-type(2) {
+  font-size: 30px;
+  margin-top: 10px;
+  font-weight: lighter;
+}
+
+#row-1 {
+  /*max-width: 100%;*/
+  margin: 0 auto;
+  /*border: 2px solid fuchsia;*/
+  display: flex;
+  /*justify-content: space-between;*/
+  /*flex-flow: row wrap;*/
+}
+
+main div {
+  /*padding for major image elements*/
+  margin: 10px 10px 0 0;
+  /*changing the div's into flex containers to position the labels*/
+  display: flex;
+  align-items: flex-end;
+}
+
+#row-1 p,
+#row-2 p {
+  background-color: #2B2F26;
+  color: #F2F1E8;
+  display: inline;
+  vertical-align: bottom;
+  padding: 10px;
+
+}
+
+/*TODO fix the images so that they are scaling correctly*/
+
+
+#product-1 {
+  background-image: url(images/product-1.jpg);
+  background-repeat: no-repeat;
+  flex-basis: 60%;
+  height: 360px;
+  flex-grow: 3;
+  flex-shrink: 3;
+  background-size: cover;
+  margin-left: 10px;
+  /*border: 2px solid red;*/
+}
+
+#product-2 {
+  background-image: url(images/product-2.jpg);
+  background-repeat: no-repeat;
+  flex-basis: 25%;
+  flex-grow: 1;
+  flex-shrink: 1;
+  height: 360px;
+  background-size: cover;
+  /*border: 2px solid green;*/
+
+}
+
+#product-3 {
+  background-image: url(images/product-3.jpg);
+  background-repeat: no-repeat;
+  flex-basis: 25%;
+  flex-grow: 1;
+  flex-shrink: 1;
+  height: 360px;
+  background-size: cover;
+  /*border: 2px solid blue;*/
+
+}
+
+#row-2 {
+  /*max-width: 100%;*/
+  margin: 0 auto;
+  /*border: 2px solid fuchsia;*/
+  display: flex;
+  /*justify-content: space-between;*/
+  /*flex-flow: row wrap;*/
+}
+
+
+#product-4 {
+  background-image: url(images/product-4.jpg);
+  background-repeat: no-repeat;
+  flex-basis: 20%;
+  flex-grow: 1;
+  flex-shrink: 1;
+  height: 245px;
+  background-size: cover;
+  margin-left: 10px;
+  /*border: 2px solid blue;*/
+
+}
+
+#product-5 {
+  background-image: url(images/product-5.jpg);
+  background-repeat: no-repeat;
+  flex-basis: 20%;
+  flex-grow: 1;
+  flex-shrink: 1;
+  height: 245px;
+  background-size: cover;
+  /*border: 2px solid blue;*/
+
+}
+
+#product-6 {
+  background-image: url(images/product-6.jpg);
+  background-repeat: no-repeat;
+  flex-basis: 40%;
+  flex-grow: 1;
+  flex-shrink: 1;
+  height: 245px;
+  background-size: cover;
+  /*border: 2px solid blue;*/
+
+}
+
+#product-7 {
+  background-image: url(images/product-7.jpg);
+  background-repeat: no-repeat;
+  flex-basis: 20%;
+  flex-grow: 1;
+  flex-shrink: 1;
+  height: 245px;
+  background-size: cover;
+  /*border: 2px solid blue;*/
+
+}
 
 
 
