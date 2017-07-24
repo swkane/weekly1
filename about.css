@@ -1,0 +1,123 @@
+/*HOME*/
+
+body {
+  background: #F2F1E8;
+  margin: 0 auto;
+  line-height: 2em;
+  font-family: 'Merriweather', serif;
+
+}
+
+/*HEADER*/
+
+#header-primary {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background: #FFFFFF;
+}
+
+#header-logo {
+  background-image: url(images/bent-creek-logo.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 40px;
+  height: 40px;
+  margin: 10px;
+}
+
+nav {
+  margin: 0 auto;
+  padding-right: 40px;
+}
+
+nav a {
+  padding: 20px;
+  color: #2B2F26;
+  font-family: 'Roboto', sans-serif;
+
+}
+
+/*MAIN*/
+section a {
+  color: #968772;
+}
+section a:hover {
+  color: #967343;
+}
+#content-top {
+  margin: 0 auto;
+  max-width: 65%;
+}
+#content-top p:nth-of-type(1) {
+  font-size: 45px;
+  text-align: center;
+}
+#content-top img {
+  float: left;
+  margin: 0 20px 10px 0;
+}
+#history {
+  font-size: 25px;
+  line-height: 1em;
+  font-weight: 300;
+}
+#content-top blockquote {
+  border-left: 2px solid #968772;
+  padding-left: 20px;
+  margin-bottom: 30px;
+  margin-left: 0px;
+  font-style: italic;
+  font-weight: lighter;
+}
+
+#header-secondary {
+  background-image: url(images/background-3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#header-secondary p {
+  color: white;
+  font-size: 45px;
+  text-align: center;
+  padding: 20px;
+}
+
+
+
+
+/*FOOTER*/
+
+footer {
+  background-color: #2B2F26;
+}
+
+footer p {
+  padding: 20px;
+  color: #F2F1E8;
+  margin: 20px 0 0 0;
+
+}
+
+
+
+/*STLYING INFO*/
+
+/*font-family: 'Merriweather', serif;
+font-family: 'Roboto', sans-serif;*/
+/*
+Background: #F2F1E8
+Text: #131511
+Inline Link: #968772
+Inline Link (Hover): #967343
+Navigation Background: #FFFFFF
+Navigation Text: #2B2F26
+Navigation Text (Hover): #CD5D67
+Navigation Text (Active) #968772
+Button Background: #968772
+Button Background (Hover): #967343
+Button Text: #F2F1E8
+Button Text (Hover): #FFFFFF
+Input Border Bottom: #968772
+Input Border Bottom (Focus): #967343*/

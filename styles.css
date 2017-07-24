@@ -27,6 +27,7 @@ header {
 
 nav {
   margin: 0 auto;
+  padding-right: 40px;
 }
 
 nav a {
@@ -89,10 +90,10 @@ main div {
   background-repeat: no-repeat;
   flex-basis: 60%;
   height: 360px;
-  flex-grow: 3;
-  flex-shrink: 3;
+  /*flex-grow: 3;
+  flex-shrink: 3;*/
   background-size: cover;
-  margin-left: 10px;
+  margin-left: 20px;
   /*border: 2px solid red;*/
 }
 
@@ -100,8 +101,8 @@ main div {
   background-image: url(images/product-2.jpg);
   background-repeat: no-repeat;
   flex-basis: 25%;
-  flex-grow: 1;
-  flex-shrink: 1;
+  /*flex-grow: 1;
+  flex-shrink: 1;*/
   height: 360px;
   background-size: cover;
   /*border: 2px solid green;*/
@@ -112,10 +113,11 @@ main div {
   background-image: url(images/product-3.jpg);
   background-repeat: no-repeat;
   flex-basis: 25%;
-  flex-grow: 1;
-  flex-shrink: 1;
+  /*flex-grow: 1;
+  flex-shrink: 1;*/
   height: 360px;
   background-size: cover;
+  margin-right: 20px;
   /*border: 2px solid blue;*/
 
 }
@@ -138,7 +140,7 @@ main div {
   flex-shrink: 1;
   height: 245px;
   background-size: cover;
-  margin-left: 10px;
+  margin-left: 20px;
   /*border: 2px solid blue;*/
 
 }
@@ -175,6 +177,7 @@ main div {
   flex-shrink: 1;
   height: 245px;
   background-size: cover;
+  margin-right: 20px;
   /*border: 2px solid blue;*/
 
 }
@@ -183,8 +186,16 @@ main div {
 
 /*FOOTER*/
 
+footer {
+  background-color: #2B2F26;
+}
 
+footer p {
+  padding: 20px;
+  color: #F2F1E8;
+  margin: 20px 0 0 0;
 
+}
 
 
 
