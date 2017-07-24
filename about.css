@@ -57,7 +57,7 @@ section a:hover {
   float: left;
   margin: 0 20px 10px 0;
 }
-#history {
+.title {
   font-size: 25px;
   line-height: 1em;
   font-weight: 300;
@@ -75,22 +75,59 @@ section a:hover {
   background-image: url(images/background-3.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  /* TODO use this property to adjust image background*/
+  background-position:;
 }
 
 #header-secondary p {
-  color: white;
-  font-size: 45px;
+  color: #F2F1E8;
+  font-size: 55px;
   text-align: center;
-  padding: 20px;
+  padding: 150px;
 }
 
+#content-bottom {
+  margin: 0 auto;
+  max-width: 65%;
+}
 
+#flex {
+  display: flex;
+}
+
+#flex p:nth-of-type(1) {
+  padding-right: 10px;
+  margin-top: 0px;
+}
+
+#caption {
+  font-size: 11px;
+  line-height: 1.5em;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+th {
+  font-weight: normal;
+}
+
+th, td {
+  border: 1px solid black;
+  padding: 10px;
+}
+
+tbody tr:nth-of-type(odd) {
+  background-color: #F4E9E2;
+}
 
 
 /*FOOTER*/
 
 footer {
   background-color: #2B2F26;
+  margin-top: 40px;
 }
 
 footer p {
