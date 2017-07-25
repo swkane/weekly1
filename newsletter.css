@@ -3,10 +3,11 @@
 body {
   background-image: url(images/background-2.jpg);
   background-size: cover;
-  /*background: #F2F1E8;*/
+  background-repeat: no-repeat;
   margin: 0 auto;
   line-height: 2em;
   font-family: 'Merriweather', serif;
+  width: 100vw;
 
 }
 
@@ -20,6 +21,8 @@ body {
   position: fixed;
   top: 0;
   width: 100%;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.5);
+
 }
 
 #header-logo {
@@ -46,12 +49,18 @@ nav a {
   color: #968772;
 }
 
+nav a:hover {
+  color: #CD5D67;
+  transition-duration: 1s;
+}
+
 /*MAIN*/
 
 #main {
   margin-top: 100px; /* to give room between the fixed navbar and content*/
   display: flex;
   justify-content: center;
+  /*align-content: center;*/
 }
 
 #form {
@@ -78,10 +87,33 @@ input {
   display: block;
   border: none;
   border-bottom: 2px solid #968772;
-  width: 80%;
+  width: 90%;
   margin-bottom: 30px;
+  font-size: 16px;
+  color: gray;
 }
 
+input:focus {
+  border-bottom: 2px solid #967343;
+  outline: none;
+  transition-duration: 1s;
+
+}
+
+button {
+  color: #F2F1E8;
+  padding: 15px 25px;
+  background-color: #968772;
+  border: none;
+  font-size: 16px;
+  font-weight: lighter;
+}
+
+button:hover {
+  background-color: #967343;
+  color: #FFFFFF;
+  transition-duration: 1s;
+}
 
 
 

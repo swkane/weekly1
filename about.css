@@ -18,6 +18,8 @@ body {
   position: fixed;
   top: 0;
   width: 100%;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.5);
+
 }
 
 #header-logo {
@@ -38,6 +40,11 @@ nav a {
   padding: 20px;
   color: #2B2F26;
   font-family: 'Roboto', sans-serif;
+}
+
+nav a:hover {
+  color: #CD5D67;
+  transition-duration: 1s;
 }
 
 .active {
@@ -81,15 +88,20 @@ section a:hover {
 
 #header-secondary {
   background-image: url(images/background-3.jpg);
+  background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #header-secondary p {
   color: #F2F1E8;
   font-size: 55px;
-  text-align: center;
-  padding: 150px;
+  /*text-align: center;*/
+  /*padding: 150px;*/
 }
 
 #content-bottom {
