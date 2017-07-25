@@ -1,0 +1,107 @@
+/*HOME*/
+
+body {
+  background-image: url(images/background-2.jpg);
+  background-size: cover;
+  /*background: #F2F1E8;*/
+  margin: 0 auto;
+  line-height: 2em;
+  font-family: 'Merriweather', serif;
+
+}
+
+/*HEADER*/
+
+#header-primary {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background: #FFFFFF;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+#header-logo {
+  background-image: url(images/bent-creek-logo.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 40px;
+  height: 40px;
+  margin: 10px;
+}
+
+nav {
+  margin: 0 auto;
+  padding-right: 40px;
+}
+
+nav a {
+  padding: 20px;
+  color: #2B2F26;
+  font-family: 'Roboto', sans-serif;
+}
+
+.active {
+  color: #968772;
+}
+
+/*MAIN*/
+
+#main {
+  margin-top: 100px; /* to give room between the fixed navbar and content*/
+  display: flex;
+  justify-content: center;
+}
+
+#form {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+#form p:nth-of-type(1) {
+  font-size: 30px;
+  font-weight: lighter;
+  margin: 20px;
+}
+#form p:nth-of-type(2) {
+  font-size: 20px;
+  font-weight: lighter;
+  margin: 0 0 30px 0;
+}
+
+
+input {
+  display: block;
+  border: none;
+  border-bottom: 2px solid #968772;
+  width: 80%;
+  margin-bottom: 30px;
+}
+
+
+
+
+
+/*STLYING INFO*/
+
+/*font-family: 'Merriweather', serif;
+font-family: 'Roboto', sans-serif;*/
+/*
+Background: #F2F1E8
+Text: #131511
+Inline Link: #968772
+Inline Link (Hover): #967343
+Navigation Background: #FFFFFF
+Navigation Text: #2B2F26
+Navigation Text (Hover): #CD5D67
+Navigation Text (Active) #968772
+Button Background: #968772
+Button Background (Hover): #967343
+Button Text: #F2F1E8
+Button Text (Hover): #FFFFFF
+Input Border Bottom: #968772
+Input Border Bottom (Focus): #967343*/
